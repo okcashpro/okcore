@@ -94,10 +94,10 @@
     "request": "browser-request"
   },
   "dependencies": {
-    "okcore-lib": "git://github.com/okcashpro/okcore-lib",
-    "okcore-node": "git://github.com/okcashpro/okcore-node",
-    "insight-ok-api": "git://github.com/okcashpro/insight-ok-api",
-    "insight-ok-ui": "git://github.com/okcashpro/insight-ok-ui"
+    "okcore-lib": "okcashpro/okcore-lib",
+    "okcore-node": "okcashpro/okcore-node",
+    "insight-ok-api": "okcashpro/insight-ok-api",
+    "insight-ok-ui": "okcashpro/insight-ok-ui"
   },
   "license": "MIT",
   "devDependencies": {
