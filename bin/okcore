@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var okcore = require('okcore-node/lib/cli/bitcore');
+var path = require('path');
+var servicesPath = path.resolve(__dirname, '../');
+var additionalServices = ['insight-ok-api', 'insight-ok-ui'];
+okcore(servicesPath, additionalServices);

@@ -1,5 +1,5 @@
 {
-  "name": "litecore",
+  "name": "okcore",
   "version": "4.1.10",
   "description": "A platform to build bitcoin and blockchain-based applications.",
   "author": "BitPay <dev@bitpay.com>",
@@ -9,10 +9,14 @@
     "build-deb": "./scripts/build-deb"
   },
   "bin": {
-    "litecore": "./bin/litecore",
-    "litecored": "./bin/litecored"
+    "okcore": "./bin/okcore",
+    "okcored": "./bin/okcored"
   },
   "contributors": [
+    {
+      "name": "oktoshi",
+      "email": "devteam@okcash.co"
+    },
     {
       "name": "Charlie Lee",
       "email": "coblee@litecoin.org"
@@ -67,7 +71,7 @@
     }
   ],
   "keywords": [
-    "litecoin",
+    "okcash",
     "transaction",
     "address",
     "p2p",
@@ -84,16 +88,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/litecoin-project/litecore.git"
+    "url": "https://github.com/okcashpro/okcore.git"
   },
   "browser": {
     "request": "browser-request"
   },
   "dependencies": {
-    "litecore-lib": "^0.13.22",
-    "litecore-node": "^3.1.11",
-    "insight-lite-api": "^0.4.4",
-    "insight-lite-ui": "^0.4.2"
+    "okcore-lib": "okcashpro/okcore-lib",
+    "okcore-node": "okcashpro/okcore-node",
+    "insight-ok-api": "okcashpro/insight-ok-api",
+    "insight-ok-ui": "okcashpro/insight-ok-ui"
   },
   "license": "MIT",
   "devDependencies": {

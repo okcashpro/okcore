@@ -1,5 +1,5 @@
 'use strict';
 
-var litecore = require('litecore-lib');
+var okcore = require('okcore-lib');
 
-module.exports = litecore;
+module.exports = okcore;
